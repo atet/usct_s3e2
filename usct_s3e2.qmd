@@ -65,8 +65,105 @@ editor: visual
 • **S3E2**: How to communicate your findings to stakeholders</br>
 ‎ ‎ ‎ ‎ ▪ Visualization concepts</br>
 ‎ ‎ ‎ ‎ ▪ Hands-on experience</br>
-‎ ‎ ‎ ‎ ▪ Next generation of data products</font></br>
+‎ ‎ ‎ ‎ ▪ Visual Data Analysis</font></br>
 <font color='#C0C0C0'>• **S3E3**: Collaborating on and scaling your efforts</font>
+
+# Concepts: Comparing Workflows
+
+## Comparison of Data Visualization Methods
+
+![](./usct_s3e2_files/img/workflow_comparison_1.png)
+
+## Comparison of Data Visualization Methods {visibility="uncounted"}
+
+![](./usct_s3e2_files/img/workflow_comparison_2.png)
+
+## Comparison of Data Visualization Methods {visibility="uncounted"}
+
+![](./usct_s3e2_files/img/workflow_comparison_3.png)
+
+## Comparison of Data Visualization Methods {visibility="uncounted"}
+
+![](./usct_s3e2_files/img/workflow_comparison_4.png)
+
+## Data Formats and Workflows
+
+![](./usct_s3e2_files/img/format_and_workflow_1.png)
+
+## Data Formats and Workflows {visibility="uncounted"}
+
+![](./usct_s3e2_files/img/format_and_workflow_2.png)
+
+## Data Formats and Workflows {visibility="uncounted"}
+
+![](./usct_s3e2_files/img/format_and_workflow_3.png)
+
+# Concepts: Types of Data Plots
+
+## What Can We Do With This Data?
+
+![](./usct_s3e2_files/img/mtcars.png)
+
+## Histogram, Frequency Plot, Density Plot
+
+::: columns
+::: {.column width="50%"}
+
+- One-dimensional
+- Not typically used to compare multiple groupings
+- Area is proportional to frequency of variable
+- E.g., distribution of horsepower across all vehicles
+
+:::
+
+::: {.column width="50%"}
+
+![](./usct_s3e2_files/img/histogram.jpg)
+
+:::
+:::
+
+## Box and Whisker Plot
+
+::: columns
+::: {.column width="50%"}
+
+- One-dimensional
+- Typically used to compare multiple groupings
+- Minimally shows the first and third quartile, median, minimum, and maximum
+- E.g., comparison of fuel efficiency across engine cylinder count
+
+:::
+
+::: {.column width="50%"}
+
+![](./usct_s3e2_files/img/boxplot.jpg)
+
+:::
+:::
+
+## Scatter Plot
+
+::: columns
+::: {.column width="50%"}
+
+- Two-dimensional: X and Y axes
+- Three-dimensional: Add Z axis or icon color/shape
+- Can be used to compare multiple groupings
+- E.g., visualize the effect of engine displacement to horsepower across engine cylinder count
+
+:::
+
+::: {.column width="50%"}
+
+![](./usct_s3e2_files/img/scatterplot.jpg)
+
+:::
+:::
+
+# Hands-On Experience
+
+# Visual Data Analysis
 
 # Thank You!
 
