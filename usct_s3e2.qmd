@@ -287,4 +287,23 @@ Questions?
 
 # Supplemental
 
+## Supplemental: Assignment Operator
+
+![](./usct_s3e2_files/img/supplemental_assignment_operator.png)
+
+## Supplemental: Lexical (a.k.a. Static) Scoping
+
+![](./usct_s3e2_files/img/supplemental_lexical_scoping.png)
+
+## Supplemental: Tilde Operator ("<code><font color='#586E75'>~</font></code>")
+
+- Operator for "formulas"
+- Used in many different functions and packages
+- E.g., "<code><font color='#586E75'>y ~ x</font></code>" means <code><font color='#586E75'>y</font></code> (or whatever is on the left) is the response to <code><font color='#586E75'>x</font></code> (or whatever is on the right)
+- E.g., "<code><font color='#586E75'>mpg ~ cyl + am</font></code>" means <code><font color='#586E75'>mpg</font></code> (fuel efficiency) depends on <code><font color='#586E75'>cyl</font></code> (cylinder count) and <code><font color='#586E75'>am</font></code> (whether it's automatic transmission)
+</br>
+</br>
+
+<center><code><font color='#586E75'><b>> help("~")</b></font></code></center>
+
 # The End
