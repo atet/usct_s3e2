@@ -104,7 +104,7 @@ editor: visual
 
 ![](./usct_s3e2_files/img/mtcars.png)
 
-## Histogram, Frequency Plot, Density Plot
+## Histogram and Density Plot
 
 ::: columns
 ::: {.column width="50%"}
@@ -162,6 +162,106 @@ editor: visual
 :::
 
 # Hands-On Experience
+
+## Recap of Development Environments from S3E1
+
+::: columns
+::: {.column width="60%"}
+
+RStudio Desktop
+
+![](./usct_s3e2_files/img/tools_2.png)
+
+:::
+
+::: {.column width="40%"}
+
+:::
+:::
+
+## Recap of Development Environments from S3E1 {visibility="uncounted"}
+
+::: columns
+::: {.column width="60%"}
+
+RStudio Desktop
+
+![](./usct_s3e2_files/img/tools_2.png)
+
+:::
+
+::: {.column width="40%"}
+
+Web-Based R "*Light*"
+
+![](./usct_s3e2_files/img/web_r_6.gif)
+
+:::
+:::
+
+## Posit Cloud = RStudio Desktop in the Cloud
+
+![](./usct_s3e2_files/img/posit_cloud_1.png)
+
+## Sign Up At: <a href="https://posit.cloud/plans/free" target="_blank"><font color='#586E75'>https://posit.cloud/plans/free</font></a>
+
+![](./usct_s3e2_files/img/posit_cloud_2.png)
+
+## Preloaded Datasets in R
+
+<font size='4'>
+Info on datasets (*iris*, *mtcars*, *airquality*, *faithful*, etc.): <a href="https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html" target="_blank"><font color='#586E75'>https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html</font></a></font></br>
+
+![](./usct_s3e2_files/img/preloaded_datasets.png)
+
+## WHY ARE WE TYPING OUT EVERYTHING?...
+
+- So you can make mitakes:
+  - *"That was case sensitive?"*
+  - *"I forgot a parenthesis/bracket?"*
+  - *"That wasn't a period/comma/semi-colon?"*
+- We learn better from mistakes
+- We can help each other out here
+</br>
+</br>
+
+<center><b>Follow along with the <font color='#FF0000'>red</font> line numbers</b></center>
+
+## Exercise #1A: Histogram
+
+![](./usct_s3e2_files/img/histogram_excel.png)
+
+## Exercise #1A: Histogram {visibility="uncounted"}
+
+![](./usct_s3e2_files/img/histogram_r.png)
+
+## Exercise #1B: Density Plot
+
+![](./usct_s3e2_files/img/density_r.png)
+
+## Exercise #2: Box Plot
+
+![](./usct_s3e2_files/img/boxplot_excel.png)
+
+## Exercise #2: Box Plot {visibility="uncounted"}
+
+![](./usct_s3e2_files/img/boxplot_r.png)
+
+## Exercise #3: Scatter Plot
+
+![](./usct_s3e2_files/img/scatterplot_excel.png)
+
+## Exercise #3: Scatter Plot {visibility="uncounted"}
+
+![](./usct_s3e2_files/img/scatterplot_r.png)
+
+## Basic Aesthetics
+
+![](./usct_s3e2_files/img/basic_aesthetics.png)
+
+## Saving Visualization (via GUI)
+
+![](./usct_s3e2_files/img/saving_gui.png)
 
 # Visual Data Analysis
 
