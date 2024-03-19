@@ -1,0 +1,81 @@
+---
+title: "Data Visualization"
+subtitle: "<font size='7'>Season 3, Episode 2</font></br><font size='5'>March 19, 2024</font>"
+author: "<font size='6'>Athit Kao, PhD</font>"
+institute: "<font size='4'>Raytheon | An RTX Business</font></br><font size='2'><em>DISCLAIMER: Opinions expressed within this presentation are solely the author's and do not reflect the opinions and beliefs of RTX or its affiliates.</em></font></br><code><font size='4' color='#FF0000'>↙ Click ≡ for menu or use arrow keys (← & →) to navigate between slides</font></code>"
+footer: "[<font color='#C0C0C0' size=2'>Copyright © 2024—∞ Athit Kao, Terms and Conditions<img src='./usct_s3e2_files/img/link_external_c0c0c0.png' style='display: inline-block; margin: 0; margin-bottom: -1px; height: 10px;'/></img></font>](http://www.athitkao.com/tos.html)"
+format:
+  revealjs:
+    theme: solarized
+    background-image: "./usct_s3e2_files/img/madameberry_pub_domain_backgrounds/fragile-soft-machine_invert.jpg"
+    transition: none
+    slide-number: c/t
+    logo: ./usct_s3e2_files/img/usct.png
+include-in-header:
+  text: |
+    <link rel = "shortcut icon" type="image/png" href = "./usct_s3e2_files/img/usct.png" />
+editor: visual
+---
+
+# Introduction {visibility="hidden"}
+
+## Goals
+
+-   High-level introduction to data visualization concepts
+-   Ensure a good start on your custom visuals
+-   Answering your questions
+
+## Goals {visibility="uncounted"}
+
+-   High-level introduction to data visualization concepts
+-   Ensure a good start on your custom visuals
+-   Answering your questions
+
+</br>
+
+<h2>Prerequisites</h2>
+
+-   No programming or R experience necessary
+-   Familiarity with spreadsheet software (e.g., Excel)
+-   Interest in automating decision-making processes
+
+## <code><font color='#586E75'>whoami</font></code>
+
+::: columns
+::: {.column width="40%"}
+![](./usct_s3e2_files/img/distracted_boyfriend.jpg)
+:::
+
+::: {.column width="60%"}
+-   "Atet"
+-   R enthusiast
+-   R&D ► Production
+    -   Science (Bioinformatics)
+    -   Engineering (Data Science)
+    -   Business (Lead Investigator)
+:::
+:::
+
+## Agenda
+
+<font color='#C0C0C0'>• **S3E1**: Introduction to leveraging machine learning</br>
+‎ ‎ ‎ ‎ ▪ Relevant background</br>
+‎ ‎ ‎ ‎ ▪ Hands-on experience</br>
+‎ ‎ ‎ ‎ ▪ 30,000 ft. view of a project</font></br>
+• **S3E2**: How to communicate your findings to stakeholders</br>
+‎ ‎ ‎ ‎ ▪ Visualization concepts</br>
+‎ ‎ ‎ ‎ ▪ Hands-on experience</br>
+‎ ‎ ‎ ‎ ▪ Next generation of data products</font></br>
+<font color='#C0C0C0'>• **S3E3**: Collaborating on and scaling your efforts</font>
+
+# Thank You!
+
+Questions?
+
+</br> </br> Coming Soon:
+
+-   (<code><font color='#586E75'>4/??/2024</font></code>) **S3E3**: Collaborating and scaling efforts
+
+# Supplemental
+
+# The End
