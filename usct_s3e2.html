@@ -596,11 +596,145 @@ Prerequisites
 <h2>Saving Visualizations (via GUI)</h2>
 
 <img data-src="./usct_s3e2_files/img/saving_gui.png" class="r-stretch"></section></section>
+<section>
 <section id="visual-data-analysis" class="title-slide slide level1 center">
 <h1>Visual Data Analysis</h1>
 
 </section>
+<section id="visualizing-exploratory-data-analysis" class="slide level2">
+<h2>Visualizing Exploratory Data Analysis</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img data-src="./usct_s3e2_files/img/splom.png"></p>
+</div><div class="column" style="width:60%;">
+<ul>
+<li>Dive in</li>
+<li>Visualize everything</li>
+<li>You might find something new and interesting</li>
+<li>You can do this <strong>a lot quicker</strong> in R than in spreadsheet software</li>
+<li><em>Reminder: Quick visuals don’t need to be polished or fancy</em></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="information-design-k.i.s.s." class="slide level2">
+<h2>Information Design: K.I.S.S.</h2>
 
+<img data-src="./usct_s3e2_files/img/kiss_1.png" class="r-stretch"></section>
+<section id="information-design-k.i.s.s.-1" class="slide level2" data-visibility="uncounted">
+<h2>Information Design: K.I.S.S.</h2>
+
+<img data-src="./usct_s3e2_files/img/kiss_2.png" class="r-stretch"></section>
+<section id="layering-aesthetics" class="slide level2">
+<h2>Layering Aesthetics</h2>
+
+<img data-src="./usct_s3e2_files/img/layering.png" class="r-stretch"><ul>
+<li>Concept used in <code>base</code> and <code>ggplot2</code> plotting systems</li>
+<li>Build up to final plot by adding layers of customization</li>
+<li>Different systems have different defaults, e.g., auto-axes</li>
+</ul>
+</section>
+<section id="data-format-for-repeated-measures" class="slide level2">
+<h2>Data Format for Repeated Measures</h2>
+
+<img data-src="./usct_s3e2_files/img/data_formats_wide.png" class="r-stretch"></section>
+<section id="data-format-for-repeated-measures-1" class="slide level2" data-visibility="uncounted">
+<h2>Data Format for Repeated Measures</h2>
+
+<img data-src="./usct_s3e2_files/img/data_formats_long.png" class="r-stretch"></section>
+<section id="limitations-of-excel-for-modern-stem" class="slide level2">
+<h2>Limitations of Excel for Modern STEM</h2>
+<p><font size="5"></font></p><font size="5">
+<ul>
+<li>Excel limit of 32 K data points/series</li>
+<li>Fixed visualization/plotting types and customization</li>
+<li>E.g., Scatterplot with 100 K data points (3 series x 32 K data points = 3.7 MB):</li>
+</ul>
+</font><p><font size="5"></font></p>
+
+<img data-src="./usct_s3e2_files/img/benchmark_1.png" class="r-stretch"></section>
+<section id="limitations-of-excel-for-modern-stem-1" class="slide level2" data-visibility="uncounted">
+<h2>Limitations of Excel for Modern STEM</h2>
+<p><font size="5"></font></p><font size="5">
+<ul>
+<li>Excel limit of 32 K data points/series</li>
+<li>Fixed visualization/plotting types and customization</li>
+<li>E.g., Scatterplot with 100 K data points (3 series x 32 K data points = 3.7 MB):</li>
+</ul>
+</font><p><font size="5"></font></p>
+
+<img data-src="./usct_s3e2_files/img/benchmark_2.png" class="r-stretch"></section>
+<section id="limitations-of-excel-for-future-stem" class="slide level2">
+<h2>Limitations of Excel for Future STEM</h2>
+<p><font size="5"></font></p><font size="5">
+<ul>
+<li><strong><em>Could not even attempt the following in Excel!</em></strong></li>
+<li>One million data points (3 series x 333 K data points = 40 MB):</li>
+</ul>
+</font><p><font size="5"></font></p>
+
+<img data-src="./usct_s3e2_files/img/benchmark_3.png" class="r-stretch"></section>
+<section id="visualization-systems-in-r" class="slide level2">
+<h2>Visualization Systems in R</h2>
+<p><font size="6"></font></p><font size="6">
+<ul>
+<li>Three main systems with new ones always being developed</li>
+<li><code>base</code>:
+<ul>
+<li>Build up from a blank canvas</li>
+<li>Used earlier in workshop</li>
+</ul></li>
+<li><code>lattice</code>:
+<ul>
+<li>Visualizations made with a single function call</li>
+<li>Not covered here</li>
+</ul></li>
+</ul>
+</font><p><font size="6"></font></p>
+</section>
+<section id="visualization-systems-in-r-1" class="slide level2" data-visibility="uncounted">
+<h2>Visualization Systems in R</h2>
+<p><font size="6"></font></p><font size="6">
+<ul>
+<li>Three main systems with new ones always being developed</li>
+<li><code>base</code>:
+<ul>
+<li>Build up from a blank canvas</li>
+<li>Used earlier in workshop</li>
+</ul></li>
+<li><code>lattice</code>:
+<ul>
+<li>Visualizations made with a single function call</li>
+<li>Not covered here</li>
+</ul></li>
+<li><code>ggplot2</code>:
+<ul>
+<li>Hybrid between <code>base</code> and <code>lattice</code>, highly customizable</li>
+<li><code>install.packages(“ggplot2”)</code> ⬅ <b><u>Execute this in the console</u></b></li>
+</ul></li>
+</ul>
+</font><p><font size="6"></font></p>
+</section>
+<section id="exercise-4-data-formats" class="slide level2">
+<h2>Exercise #4: Data Formats</h2>
+
+<img data-src="./usct_s3e2_files/img/data_formats_exercise.png" class="r-stretch"></section>
+<section id="exercise-5-density-plot-ggplot2" class="slide level2">
+<h2>Exercise #5: Density Plot (ggplot2)</h2>
+
+<img data-src="./usct_s3e2_files/img/density_ggplot2.jpg" class="r-stretch"></section>
+<section id="exercise-6-box-and-whisker-plot-ggplot2" class="slide level2">
+<h2>Exercise #6: Box and Whisker Plot (ggplot2)</h2>
+
+<img data-src="./usct_s3e2_files/img/boxplot_ggplot2.jpg" class="r-stretch"></section>
+<section id="exercise-7-scatter-plot-with-layering-ggplot2" class="slide level2">
+<h2>Exercise #7: Scatter Plot with Layering (ggplot2)</h2>
+
+<img data-src="./usct_s3e2_files/img/scatterplot_ggplot2.jpg" class="r-stretch"></section>
+<section id="saving-visualizations-via-code" class="slide level2">
+<h2>Saving Visualizations (via Code)</h2>
+
+<img data-src="./usct_s3e2_files/img/saving_code.jpg" class="r-stretch"></section></section>
 <section id="thank-you" class="title-slide slide level1 center">
 <h1>Thank You!</h1>
 <p>Questions?</p>

@@ -299,6 +299,136 @@ Info on datasets (*iris*, *mtcars*, *airquality*, *faithful*, etc.): <a href="ht
 
 # Visual Data Analysis
 
+## Visualizing Exploratory Data Analysis
+
+::: columns
+::: {.column width="40%"}
+
+![](./usct_s3e2_files/img/splom.png)
+
+:::
+::: {.column width="60%"}
+
+- Dive in
+- Visualize everything
+- You might find something new and interesting
+- You can do this **a lot quicker** in R than in spreadsheet software
+- *Reminder: Quick visuals don't need to be polished or fancy*
+
+:::
+:::
+
+## Information Design: K.I.S.S.
+
+![](./usct_s3e2_files/img/kiss_1.png)
+
+## Information Design: K.I.S.S. {visibility="uncounted"}
+
+![](./usct_s3e2_files/img/kiss_2.png)
+
+## Layering Aesthetics
+
+![](./usct_s3e2_files/img/layering.png)
+
+- Concept used in <code>base</code> and <code>ggplot2</code> plotting systems
+- Build up to final plot by adding layers of customization
+- Different systems have different defaults, e.g., auto-axes
+
+## Data Format for Repeated Measures
+
+![](./usct_s3e2_files/img/data_formats_wide.png)
+
+## Data Format for Repeated Measures {visibility="uncounted"}
+
+![](./usct_s3e2_files/img/data_formats_long.png)
+
+## Limitations of Excel for Modern STEM
+
+<font size='5'>
+
+- Excel limit of 32 K data points/series
+- Fixed visualization/plotting types and customization
+- E.g., Scatterplot with 100 K data points (3 series x 32 K data points = 3.7 MB):
+
+</font>
+
+![](./usct_s3e2_files/img/benchmark_1.png)
+
+## Limitations of Excel for Modern STEM {visibility="uncounted"}
+
+<font size='5'>
+
+- Excel limit of 32 K data points/series
+- Fixed visualization/plotting types and customization
+- E.g., Scatterplot with 100 K data points (3 series x 32 K data points = 3.7 MB):
+
+</font>
+
+![](./usct_s3e2_files/img/benchmark_2.png)
+
+## Limitations of Excel for Future STEM
+
+<font size='5'>
+
+- ***Could not even attempt the following in Excel!***
+- One million data points (3 series x 333 K data points = 40 MB):
+
+</font>
+
+![](./usct_s3e2_files/img/benchmark_3.png)
+
+## Visualization Systems in R
+
+<font size='6'>
+
+- Three main systems with new ones always being developed
+- <code>base</code>:
+   - Build up from a blank canvas
+   - Used earlier in workshop
+- <code>lattice</code>:
+   - Visualizations made with a single function call
+   - Not covered here
+
+</font>
+
+## Visualization Systems in R {visibility="uncounted"}
+
+<font size='6'>
+
+- Three main systems with new ones always being developed
+- <code>base</code>:
+   - Build up from a blank canvas
+   - Used earlier in workshop
+- <code>lattice</code>:
+   - Visualizations made with a single function call
+   - Not covered here
+- <code>ggplot2</code>:
+   - Hybrid between <code>base</code> and <code>lattice</code>, highly customizable
+   - <code>install.packages("ggplot2")</code> ⬅ <b><u>Execute this in the console</u></b>
+
+</font>
+
+
+## Exercise #4: Data Formats
+
+![](./usct_s3e2_files/img/data_formats_exercise.png)
+
+## Exercise #5: Density Plot (ggplot2)
+
+![](./usct_s3e2_files/img/density_ggplot2.jpg)
+
+## Exercise #6: Box and Whisker Plot (ggplot2)
+
+![](./usct_s3e2_files/img/boxplot_ggplot2.jpg)
+
+## Exercise #7: Scatter Plot with Layering (ggplot2)
+
+![](./usct_s3e2_files/img/scatterplot_ggplot2.jpg)
+
+## Saving Visualizations (via Code)
+
+![](./usct_s3e2_files/img/saving_code.jpg)
+
 # Thank You!
 
 Questions?
