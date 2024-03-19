@@ -70,6 +70,18 @@ editor: visual
 
 # Concepts: Comparing Workflows
 
+## Recap: Exploratory Data Analysis
+
+![](./usct_s3e2_files/img/eda_1.png)
+
+## Recap: Exploratory Data Analysis {visibility="uncounted"}
+
+![](./usct_s3e2_files/img/eda_2.png)
+
+## Recap: Exploratory Data Analysis {visibility="uncounted"}
+
+![](./usct_s3e2_files/img/eda_3.png)
+
 ## Comparison of Data Visualization Methods
 
 ![](./usct_s3e2_files/img/workflow_comparison_1.png)
