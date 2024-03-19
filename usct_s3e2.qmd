@@ -211,6 +211,28 @@ Web-Based R "*Light*"
 :::
 :::
 
+## Recap of Development Environments from S3E1 {visibility="uncounted"}
+
+::: columns
+::: {.column width="60%"}
+
+RStudio Desktop
+
+![](./usct_s3e2_files/img/tools_2.png)
+
+:::
+
+::: {.column width="40%"}
+
+Web-Based R "*Light*"
+
+![](./usct_s3e2_files/img/web_r_6.gif)
+
+:::
+:::
+
+*Too much to install right now...*‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ *No visualization...*
+
 ## Posit Cloud = RStudio Desktop in the Cloud
 
 ![](./usct_s3e2_files/img/posit_cloud_1.png)
@@ -271,7 +293,7 @@ Info on datasets (*iris*, *mtcars*, *airquality*, *faithful*, etc.): <a href="ht
 
 ![](./usct_s3e2_files/img/basic_aesthetics.png)
 
-## Saving Visualization (via GUI)
+## Saving Visualizations (via GUI)
 
 ![](./usct_s3e2_files/img/saving_gui.png)
 
