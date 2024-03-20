@@ -429,6 +429,37 @@ Info on datasets (*iris*, *mtcars*, *airquality*, *faithful*, etc.): <a href="ht
 
 ![](./usct_s3e2_files/img/saving_code.jpg)
 
+##  
+
+<center>
+
+<h1>**Congratulations!!!**</h1>
+
+<img src="./usct_s3e2_files/img/congratulations.gif" width="55%"/> </br>You can now automate visualizations!
+
+</center>
+
+## Summary
+
+::: {.incremental}
+
+- Review exploratory data analysis concepts
+- Best practices for scalable and reproducible visualizations
+- Types of visualizations
+- Hands-on exercises
+- Information design concepts
+- Working with large data sets
+
+:::
+
+## Next Steps:</br>Interactive Visualizations, Dashboards, etc.
+
+<center>
+
+![](./usct_s3e2_files/img/shiny_interactive.jpg)
+
+</center>
+
 # Thank You!
 
 Questions?
